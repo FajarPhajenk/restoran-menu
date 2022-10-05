@@ -1,0 +1,204 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant menu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- =========== BOXicons =========== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <!-- ================ SCROLL ================ -->
+    <a href="" class="scrolltop" id="scroll-top">
+        <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!-- ================ NAVBAR ================ -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Fajar Phajenk
+                Restaurant
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#service" class="nav__link">Service</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-list-ul bx-menu' ></i>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- ================ MAIN ================ -->
+    <main class="l-nain">
+    <!-- ================ Main Home ================ -->
+    <section class="home" id="home">
+        <div class="home__container bd-container bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">Tasty Food</h1>
+                <h2 class="home__subtitle">Try the best food <br> the week</h2>
+                <a href="#" class="button">View Menu</a>
+            </div>
+
+            <img src="wallpaper/undraw_breakfast_psiw.svg" class="home__img" alt="Foto">
+        </div>
+    </section>
+
+    <!-- ================ Main About ================ -->
+    <section class="about bd-container about-initial" id="about">
+        <div class="about__container bd-grid">
+            <div class="about__data">
+                <span class="section-subtitle about__initial">About Us</span>
+                <h2 class="section-title about-initial">we cook the best <br> tasty food</h2>
+                <p class="about__description">We cook the best food in the etier city, with exellent customer service, the best meals and at the best price, visit us</p>
+                <a href="#" class="button">Explore History</a>
+            </div>
+
+            <img src="wallpaper/undraw_chef_cu-0-r.svg" alt="foto" class="about__img">
+        </div>
+    </section>
+    
+    <!-- ================ Main Service ================ -->
+    <section class="services section bd-container" id="service">
+        <span class="section-subtitle">Offering</span>
+        <h2 class="section-title">Our amazing service</h2>
+
+        <div class="service__container bd-grid">
+            <div class="service__content">
+                <!-- ================ SVG links ================ -->
+                <img src="wallpaper/undraw_hamburger_re_7sfy.svg" alt="foto" class="services__img">
+                <h3 class="service__title">Fast Food</h3>
+                <p class="service__description">We offer our client exellent quality service for many years, with the best and delicious food in the city</p>
+            </div>
+
+            <div class="service__content">
+                <!-- ================ SVG links ================ -->
+                <img src="wallpaper/undraw_on_the_way_re_swjt.svg" class="services__img">
+                <h3 class="service__title">Delivery food</h3>
+                <p class="service__description">We offer our client exellent quality service for many years, with the best and delicious food in the city</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================ Main Menu ================ -->
+    <section class="menu section bd-container" id="menu">
+        <span class="section-subtitle">Special</span>
+        <h2 class="section-title">Menu of the week</h2>
+
+        <div class="menu__container bd-grid">
+            <div class="menu__content">
+                <img src="ayam/ayam2.jpg" alt="foto" class="menu__img">
+                <h3 class="menu__name">Menu Chicken</h3>
+                <span class="menu__detail">Delicious chicken</span>
+                <span class="menu__preci">$12.50</span>
+                <a href="" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
+            </div>
+            <div class="menu__content">
+                <img src="breakfast/pagi2.png" alt="foto" class="menu__img">
+                <h3 class="menu__name">Breakfast</h3>
+                <span class="menu__detail">Delicious Breakfast</span>
+                <span class="menu__preci">$9.50</span>
+                <a href="" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
+            </div>
+            <div class="menu__content">
+                <img src="minuman/minuman2.png" alt="foto" class="menu__img">
+                <h3 class="menu__name">Menu Drink</h3>
+                <span class="menu__detail">Delicious Drink</span>
+                <span class="menu__preci">$7.00</span>
+                <a href="" class="button menu__button"><i class="bx bx-cart-alt"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ================ Main App ================ -->
+    <section class="app section bd-container">
+        <div class="app__container bd-grid">
+            <div class="app__data">
+                <span class="section-subtitle app__initial">App</span>
+                <h2 class="section-title app-initial">App is available</h2>
+                <p class="app__description">Find our application and download it, you can make reservations, food orders, see your delivers on the way and much more</p>
+                <div class="app__stores">
+                <a href="#"><img src="app1.png" class="app__store" alt="Foto"></a>
+                <a href="#"><img src="app2.png" class="app__store" alt="Foto"></a>
+            </div>
+            </div>
+
+            <img src="mobile.png" alt="foto" class="app__img">
+        </div>
+    </section>
+
+    <!-- ================ Main Contact ================ -->
+    <section class="content section bd-container" id="contact">
+        <div class="contact__container bd-grid">
+            <div class="contact__data">
+                <span class="section-subtitle contact__initial">Lets talk</span>
+                <h2 class="section-title contact__initial">Contact Us</h2>
+                <p class="contact__description">If you want to reserve a table in our restaurant, contact us an we will attend you quickly, width our 24/7 chat service.</p>
+            </div>
+
+            <div class="contact__button">
+                <a href="" class="button">Contact us now</a></div>
+        </div>
+    </section>
+    </main>
+
+    <!-- ================ Footer ================ -->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Fajar food</a>
+                <span class="footer__description"></span>
+                <div>
+                    <a href="" class="footer__social"><i class="bx bxl-facebook"></i></a>
+                    <a href="" class="footer__social"><i class="bx bxl-instagram"></i></a>
+                    <a href="" class="footer__social"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Services</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Delivery</a></li>
+                    <li><a href="#" class="footer__link">Pricing</a></li>
+                    <li><a href="#" class="footer__link">Fast Food</a></li>
+                    <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Information</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Event</a></li>
+                    <li><a href="#" class="footer__link">Contact</a></li>
+                    <li><a href="#" class="footer__link">privacy Policy</a></li>
+                    <li><a href="#" class="footer__link">Terms and service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Address</h3>
+                <ul>
+                    <li>Indonesia - Central Java</li>
+                    <li>3434452</li>
+                    <li>+62 3289 2849 487</li>
+                    <li>fajarrcf09@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2022Fajar. All right reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
